@@ -46,6 +46,7 @@ var RaisedButton = React.createClass({
       zDepth: zDepth,
       initialZDepth: zDepth,
     });
+    this.props.disabled = nextProps.disabled;
     this.styles = this.getStyles();
   },
 
